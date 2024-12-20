@@ -39,7 +39,7 @@ public class HotelReservationSystem {
 		CustomerService customerService=new CustomerServiceImp();
 		try {
 			do {
-			log.info("******Welcom To Hotel Reservation System*****");
+			log.info("******Welcome To Hotel Reservation System*****");
 			log.info("Login in Application\n1.Customer.\n2.Admin.\n3.Close System.");
 			System.out.println("Enter Your Choice");
 			int login=sc.nextInt();
